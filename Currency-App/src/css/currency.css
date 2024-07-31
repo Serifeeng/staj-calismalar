@@ -1,0 +1,62 @@
+.currency-div{
+    background-image: url(img.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width:600px;
+    height:400px;
+}
+.amount{
+    width: 95px;
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color:rgba(0, 0, 0, 0.750);
+    color: white;
+
+}
+.from-currency-option{
+    width: 95px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.750);
+    color: white;
+}
+.to-currency-option{
+    width: 95px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.750);
+    color: white;
+
+}
+.result{
+    width: 95px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.750);
+    color: white;
+}
+.text{
+    height: 50px;
+    width: 300px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 95px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.750);
+    color: white;  
+}
