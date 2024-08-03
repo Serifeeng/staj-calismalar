@@ -1,0 +1,55 @@
+.rehber{
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    width: 300px;
+    height: 80px;
+    color:aliceblue;
+    border: solid white;
+}
+.tel-button,.msg-button{
+    background: none;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.rehberEdit{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.Cnttxt{
+    background-color: green;
+    width: 70px;
+    height: 25px;
+    border-radius: 0px 13px 13px 13px;
+    border: none;
+}
+.rehberText{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    
+}
+.edit{
+    background-color: black;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+}
+
+.update ,.cancel,.intput{
+    color: black;
+    background:linear-gradient(to right, #089496, #a7fe7b);
+}
+.editBtn{
+    justify-content: space-between;
+}
+.delete{
+    margin-top: 10px;
+}

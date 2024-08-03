@@ -1,0 +1,27 @@
+.searchbox{
+    width: 300px;
+    height:80px;
+    background:linear-gradient(to right, #089496, #a7fe7b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    border:solid white
+}
+
+.bx{
+    font-size:30px;
+    color:aliceblue;
+    background: none;
+}
+.addbutton{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.searchtext{
+    width: 170px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}

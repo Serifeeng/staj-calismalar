@@ -132,3 +132,30 @@ p{
 .c{
     width: 30px;
 }
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .search-box {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #btn {
+        width: 100%;
+    }
+
+    .guess .day1, .guess .day2, .guess .day3, .guess .day4, .guess .day5 {
+        flex: none;
+        width: 100%;
+    }
+}

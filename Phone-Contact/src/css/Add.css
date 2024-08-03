@@ -1,0 +1,21 @@
+.addContainer{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 120px;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    top: 103px; 
+    left: 550px;
+}
+.Addbtn,.Addname,.Addtext,.Cancelbtn{
+    color: black;
+    background:linear-gradient(to right, #089496, #a7fe7b);
+}
+.Addbtn{
+    width: 58px;
+}
