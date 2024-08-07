@@ -1,27 +1,3 @@
-/* .App.light {
-    background-color: white;
-    color: black;
-  }
-  
-  .App.dark {
-    background-color: black;
-    color: white;
-  }
-  .toggle-button {
-    position: absolute;
-    top: 90px; /* Butonun üstten uzaklığı, ihtiyaca göre ayarlanabilir */
-    /*right: 20px; 
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  .title{
-    justify-content: center;
-    text-align: center;
-    margin:50px;
-  } */
-
-  /* App.css */
-
 body.dark {
   background-color: black;
   color: white;
