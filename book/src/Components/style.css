@@ -1,0 +1,236 @@
+*{
+    padding:0;
+    margin: 0;
+}
+:root{
+    --primary-color:rgb(78, 49, 29);
+    --secondary-color:rgb(143, 111, 69); 
+}
+body{
+    background-color: var(--primary-color) ;
+
+}
+html{
+    font-size: 75.5%;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    color: var(--secondary-color);
+    box-shadow: 0 5px 10px var(--secondary-color);
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+.row2{
+    position: absolute;
+    top:10px;
+    right: 150px;
+    text-align:center ;
+}
+.row2 h2{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.row1 h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 35px;
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    outline: 0;
+    border:0;
+    width: 350px;
+    height: 35px;
+    padding: 0 0.5rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Addbtn{
+    background-color:var(--secondary-color);
+    border: none;
+    height: 35px;
+    padding: 0 1rem ;
+    cursor: pointer;
+}  
+
+.header ::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(42, 54, 18), rgba(0,0,0,0.5)), url('./img3.jpg');
+    clip-path: circle(60% at left 300px);
+    z-index: -1;
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:20px;
+    box-sizing: border-box;
+
+}
+.card{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px rgba(212,185,150,0.5);
+    transition: .5s;
+    text-align: center;
+    position: relative;
+ 
+}
+.card:hover{
+    transform: scale(0.95);
+    background-color: rgba(212,185,150,0.5); 
+}
+
+ .card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card, .bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.card, .bottom, .title{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.card, .bottom, .amount{
+     /* position: absolute;   */
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem;
+} 
+.bottom button{
+    margin-top: 12px;
+    border-radius: 1rem;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: var(--secondary-color);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem;
+    width: 100px;
+    cursor: pointer;
+    
+}
+.bottom{
+    align-items: center;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .modal-header, .modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-title {
+    margin: 0;
+  }
+  
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-details {
+    margin-left: 10px;
+  }
+  
+  .cart-item-details h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .cart-item-details p {
+    margin: 5px 0;
+  }
+ 
+.Addpage{
+  background-color:var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 200px;
+  height: 120px;
+  padding: 10px;
+  top: 103px; 
+  left: 550px;
+} 
+.add-book-form input{
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  width: 200px;
+  height: 20px;
+}
+.add-book-form button{
+  background-color: var(--secondary-color);
+  height: 30px;
+  border:none;
+  
+  cursor:pointer;
+}
